@@ -1,4 +1,4 @@
-# discouraged-npm-packages
+# Discouraged Npm Packages
 List of npm packages you should stop using.
 
 Npm is full of junk that should best be avoided.
