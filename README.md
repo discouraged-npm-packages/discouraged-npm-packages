@@ -5,6 +5,7 @@ Npm is full of junk that should best be avoided.
 - Some packages are discontinued and don't get any updates any more.
 - Some packages forget to deprecate themself and dose not provide you with any information of what you should use instead.
 - Some packages can even be harmful
+- Some are not even needed as there are native solution built in to the language itself
 
 This organisation is an attempt to help out fleshing this things out. 
 I will attempt to make a plugin that can work with some certain build tools, such as a lint plugin or something that can scan package(-lock).json for any (dev)Dependency or sub dependency and provide you with a json db linking to the relevant discussion
