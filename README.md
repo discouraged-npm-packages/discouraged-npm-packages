@@ -14,7 +14,7 @@ this list of discouraged npm packages is by no mean one sideded. The idea is for
 
 ## Making a request to discourage a package
 
-1. First look if the package already exist [here](https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/categories/should-stop-using)
+1. First look if the package already exist among the [disccusions](https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/categories/should-stop-using) or search in [db.json](https://github.com/discouraged-npm-packages/discouraged-npm-packages/blob/main/db.json)
 1. If the package do not already exist head to create a new [poll discussion](https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/new?category=should-stop-using)
 2. for the title: only write the name of the npm package.
 2. then for the body use this template belove (gituhb don't support discussion templates yet)
