@@ -1,0 +1,21 @@
+[
+  "concat-map,24,1,0",
+  "windows-1252,23,1,0",
+  "co,22,1,0",
+  "querystring,21,1,0",
+  "request,20,1,0",
+  "array-flatten,19,1,0",
+  "safer-buffer,18,1,0",
+  "safe-buffer,17,1,0",
+  "right-pad,16,1,0",
+  "left-pad,15,1,0",
+  "pad-right,12,1,0",
+  "pad-left,10,1,0",
+  "rimraf,9,1,0",
+  "extend-shallow,8,1,0",
+  "buffer-alloc,2,1,0",
+  "object-assign,7,1,0",
+  "xtend,6,1,0",
+  "mkdirp,5,1,0",
+  "string_decoder,1,1,0"
+]
