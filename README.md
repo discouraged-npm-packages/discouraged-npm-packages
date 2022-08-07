@@ -7,7 +7,7 @@ Npm is full of junk that should best be avoided.
 - Some packages can even be harmful
 - Some are not even needed as there are native solution built in to the language itself
 
-This organisation is an attempt to help out fleshing this things out. 
+This organisation is an attempt to help out fleshing this things out.
 I will attempt to make a plugin that can work with some certain build tools, such as a lint plugin or something that can scan package(-lock).json for any (dev)Dependency or sub dependency and provide you with a json db linking to the relevant discussion
 
 This list of discouraged npm packages is by no mean one sideded. The idea is for the ppl to [vote](https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/categories/should-stop-using) on packages to be disccuraged and if some ratio is meet then it will update the list of disccuraged npm packages. Then i will probably try to automate this process somehow
@@ -44,7 +44,7 @@ This list of discouraged npm packages is by no mean one sideded. The idea is for
 ## Alternative solution
 
 ```js
-// this two exist in all environment and works anywhere 
+// this two exist in all environment and works anywhere
 new TextEncoder().encode()
 new TextDecoder().decode()
 ```
@@ -53,3 +53,23 @@ new TextDecoder().decode()
 </details>
 
 3. then for the poll write: **Should \`___\` be discouraged?** yes|no
+
+## Using this module
+```js
+// npm i https://github.com/discouraged-npm-packages/discouraged-npm-packages --save-dev
+// yarn add https://github.com/discouraged-npm-packages/discouraged-npm-packages -d
+
+import discouragedPackages from 'discouraged-npm-packages' // or:
+import discouragedPackages from 'https://cdn.jsdelivr.net/gh/discouraged-npm-packages/discouraged-npm-packages@master/mod.js'
+
+const votes = 'https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/'
+const pkg = discouragedPackages['pad-left']
+
+console.log('number of votes:', pkg.voted)
+console.log('percentage of how many agrees:', pkg.percentage)
+console.log('number of ppl saying yes:', pkg.yes)
+console.log('number of ppl saying no:', pkg.no)
+
+// open up reasons and details on why and how to solve things
+window.open(votes + pkg.id)
+```
