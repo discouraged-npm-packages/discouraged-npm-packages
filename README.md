@@ -15,6 +15,8 @@ This list of discouraged npm packages is by no mean one sideded. The idea is for
 
 ## Making a request to discourage a package
 
+Please don't add anything just out of own preferable taste. Don't just fork a package and say that ppl should use your own package instead cuz your is doing one thing better. it should have a legit reason for something to be considered generally discouraged. Such as being really outdated or being unmaintained or just being very bloated.
+
 1. First look if the package already exist among the [disccusions](https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/categories/should-stop-using) or search in [db.json](https://github.com/discouraged-npm-packages/discouraged-npm-packages/blob/main/db.json)
 1. If the package do not already exist head to create a new [poll discussion](https://github.com/discouraged-npm-packages/discouraged-npm-packages/discussions/new?category=should-stop-using)
 2. for the title: only write the name of the npm package.
